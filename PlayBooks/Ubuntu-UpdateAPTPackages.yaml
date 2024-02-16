@@ -1,9 +1,4 @@
----
-- hosts: all
-
-  become: true
-  tasks:
-    - name: Ubuntu - Update Apt Packages
-      apt:
-        upgrade: yes
-        update_cache: yes
+- name: Ubuntu - Update Apt Packages
+  apt:
+  upgrade: yes
+  update_cache: yes
