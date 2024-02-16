@@ -1,2 +1,8 @@
-- name: Windows - WinPing
-  win_ping:
+---
+# Test PlayBook
+- name: Ping 
+  hosts: all 
+
+  tasks:
+  - name: ping
+    win_ping:
