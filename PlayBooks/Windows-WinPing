@@ -1,0 +1,2 @@
+- name: Windows - WinPing
+  win_ping:
